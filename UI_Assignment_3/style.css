@@ -1,0 +1,821 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato Regular", sans-serif;
+}
+@font-face {
+  font-family: "Lato Regular";
+  src: url("Lato-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato Italic";
+  src: url("Lato-Italic.ttf") format("truetype");
+}
+
+body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  box-sizing: inherit;
+}
+.main-container {
+  height: auto;
+  width: 100%;
+  background-image: url("assets/BG/BG.png");
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+/*First-Top*/
+.first {
+  height: 800px;
+  width: 100%;
+  background-image: url("assets/First/BG_Layer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.menu {
+  height: 85px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 77px;
+  overflow: visible;
+  position: relative;
+}
+.menu p {
+  padding: 0%;
+  font-size: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #4d4959;
+  font-weight: 700;
+}
+.menu-left {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  margin-right: -93px;
+  padding-right: 12px;
+}
+.menu-mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 300px;
+  position: sticky;
+  padding-bottom: 7px;
+}
+.menu-right {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  margin-left: -93px;
+}
+.menu-left-1 {
+  padding-right: 18px;
+}
+.menu-left-2 {
+  display: flex;
+}
+.menu-left-3 {
+  padding-left: 15.3px;
+}
+.menu-right-1 {
+  padding-right: 13px;
+}
+.menu-right-2 {
+  display: flex;
+}
+.menu-right-3 {
+  padding-left: 13px;
+}
+
+/*Second-about us*/
+.second {
+  width: 100%;
+  height: 469.9999px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 86px;
+}
+.second-second {
+  margin-top: 28px;
+}
+.second-title {
+  font-size: 18px;
+  letter-spacing: 3.6px;
+  text-transform: uppercase;
+  color: #353738;
+  font-weight: 700;
+  text-align: center;
+  margin: 0px;
+}
+.second-para {
+  font-size: 17px;
+  line-height: 34px;
+  color: #848789;
+  font-weight: 410;
+  text-align: center;
+  letter-spacing: 0.35px;
+}
+.second-third {
+  width: 1080px;
+  height: 190px;
+  margin-top: 18px;
+  margin-bottom: 16px;
+  margin-left: 35px;
+}
+/*third-work*/
+.third-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 1801px;
+}
+.third {
+  height: 1801px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(9, 200px);
+}
+.item-1 {
+  background-image: url("assets/Third/Bike1/Bg_Img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.item-1-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.item-2 {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.item-2-top {
+  width: 100%;
+  height: 410px;
+  background-image: url("assets/Third/Bike1/Bg_Img3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  z-index: 1;
+  position: relative;
+  margin-bottom: -10px;
+}
+.vintage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 46px;
+}
+.vintage-icon {
+  margin-bottom: 25px;
+}
+.vintage-title-txt,
+.boriosa-title-txt,
+.retro-title-txt {
+  font-size: 18px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #353738;
+  font-weight: 800;
+  text-align: center;
+  margin: 0px;
+}
+.vintage-title,
+.boriosa-title,
+.retro-title {
+  margin-bottom: 10px;
+  margin-left: 6px;
+}
+.vintage-content,
+.boriosa-content,
+.retro-content {
+  height: 135px;
+  width: 370px;
+  margin-right: 27px;
+}
+.vintage-content-txt,
+.boriosa-content-txt,
+.retro-content-txt {
+  width: 397px;
+  height: 147px;
+  font-size: 15px;
+  line-height: 30px;
+  color: #848789;
+  font-weight: 400;
+  text-align: justify;
+
+  margin: 0px;
+}
+.item-2-low {
+  width: 100%;
+  height: 200px;
+  background-image: url("assets/Third/Bike1/Bg_Img2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  position: relative;
+}
+
+.item-3 {
+  background-color: #548ed7;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.item-3-top {
+  width: 100%;
+  height: 410px;
+  background-image: url("assets/Third/Bike2/Bg_Img3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  z-index: 1;
+  position: relative;
+  margin-bottom: -10px;
+}
+
+.boriosa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 60px;
+}
+.boriosa-icon {
+  margin-bottom: 23px;
+}
+.item-3-low {
+  width: 100%;
+  height: 200px;
+  background-image: url("assets/Third/Bike2/Bg_Img2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  position: relative;
+}
+
+.item-4 {
+  background-image: url("assets/Third/Bike2/Bg_Img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.item-4-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.item-5 {
+  background-image: url("assets/Third/Bike3/Bg_Img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row-start: 7;
+  grid-row-end: 10;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.item-5-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.item-6 {
+  grid-row-start: 7;
+  grid-row-end: 10;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.item-6-top {
+  width: 100%;
+  height: 410px;
+  background-image: url("assets/Third/Bike3/Bg_Img3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  z-index: 1;
+  position: relative;
+  margin-bottom: -10px;
+}
+.retro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 65px;
+}
+.retro-icon {
+  margin-bottom: 18px;
+  padding-left: 2.5px;
+}
+.retro-title-txt {
+  font-size: 18px;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  color: #353738;
+  font-weight: 800;
+  text-align: center;
+  margin: 0px;
+}
+.item-6-low {
+  width: 100%;
+  height: 200px;
+  background-image: url("assets/Third/Bike3/Bg_Img2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  position: relative;
+}
+.item-7 {
+  background-image: url("assets/Third/Bike3/Bg_Img4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row-start: 7;
+  grid-row-end: 10;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+/*forth - twitter*/
+.forth {
+  width: 100%;
+  height: 467px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #f7f7f7;
+}
+.forth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: -55px;
+}
+.forth-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.forth-title-left p {
+  font-size: 18px;
+  letter-spacing: 2.35px;
+  color: #353738;
+  font-weight: 700;
+  text-align: center;
+  margin: 0px;
+}
+.forth-title-right p {
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #848789;
+  margin: 0px;
+  text-align: center;
+}
+
+.forth-text {
+  width: 1080px;
+  height: 65px;
+  font-size: 22.54px;
+  line-height: 34px;
+  letter-spacing: 0.23px;
+  color: #848789;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Lato Italic", sans-serif;
+  text-align: center;
+  margin-top: 15px;
+  padding-left: 38px;
+}
+.forth-text p {
+  font-style: italic;
+  font-family: "Lato Italic", sans-serif;
+}
+.forth-first {
+  margin-bottom: 30px;
+}
+.count-bar {
+  margin-top: 92px;
+}
+/*fifth - work*/
+.fifth-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.fifth {
+  height: 534px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 267px 267px;
+}
+.fifth-item-1 {
+  background-image: url("assets/Fifth/Img1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.fifth-item-2 {
+  background-image: url("assets/Fifth/Img2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.fifth-item-3 {
+  background-color: #64c29e;
+  background-image: url("assets/Fifth/Img3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.fifth-item-4 {
+  background-color: #282f35;
+  background-image: url("assets/Fifth/Img4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.fifth-item-5 {
+  background-image: url("assets/Fifth/Img5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.fifth-item-6 {
+  background-image: url("assets/Fifth/Img9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  
+}
+.fifth-item-6 p {
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+}
+.myshopbtn{
+  padding-top: 0px;
+}
+.inner-div {
+    width: 100%;
+    height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 5px;
+  
+}
+.upper {
+  margin-bottom: 5px;
+}
+.lower {
+  margin-top: 5px;
+}
+.inner-div-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 23px;
+  
+}
+.fifth-item-7 {
+  background-image: url("assets/Fifth/Img7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+.fifth-item-8 {
+  background-image: url("assets/Fifth/Img8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 6;
+  grid-column-end: 7;
+}
+
+/*Discover*/
+.discover {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #282f35;
+}
+.discover-button {
+  width: 300px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.discover-button p {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  margin: 0px;
+  padding-left: 6px;
+}
+.discover-button:hover {
+  border: 1px solid #ffffff;
+}
+
+/*Sixth-Mailing*/
+.sixth {
+  width: 100%;
+  height: 470px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.sixth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 3px;
+}
+.sixth-div2 {
+  margin-top: 30px;
+  margin-bottom: 33px;
+}
+.sixth-div2 p {
+  width: 899px;
+  height: 33px;
+  font-size: 24px;
+  line-height: 34px;
+  color: #848789;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Lato Italic", sans-serif;
+  text-align: center;
+  margin: 0px;
+}
+.mysearch {
+  width: 400px;
+  height: 69px;
+  background-color: #ffffff;
+  border: 1px solid #d3d7d9;
+  border-radius: 0px;
+  opacity: 0.502;
+  font-size: 20px;
+  line-height: 24px;
+  color: #929292;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Lato Italic", sans-serif;
+  text-align: left;
+}
+.mybtn {
+  width: 126px;
+  height: 69px;
+  background-color: #64c29e;
+  border-radius: 0px;
+  border: 1px solid #64c29e;
+}
+.mybtn p {
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 300;
+  text-align: center;
+  margin: 0px;
+}
+.sd1 {
+  margin-right: 8.5px;
+}
+.sd2 {
+  margin-left: 8.5px;
+}
+
+/*Seventh-footer*/
+.footer {
+  width: 100%;
+  height: 250px;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-left: 10px;
+}
+.footer3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  align-content: left;
+  margin-left: 96px;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  align-content: left;
+  padding-bottom: 7px;
+}
+.footer-number {
+  font-size: 16px;
+  line-height: 18px;
+  color: #848789;
+  font-weight: 700;
+  margin: 0px;
+}
+.footer-street {
+  font-size: 14px;
+  line-height: 18px;
+  color: #848789;
+  font-weight: 700;
+  margin: 0px;
+  font-style: italic;
+  font-family: "Lato Italic", sans-serif;
+}
+.footer-contact {
+  font-size: 14px;
+  line-height: 18px;
+  color: #848789;
+  font-weight: 700;
+  margin: 0px;
+  font-style: italic;
+  font-family: "Lato Italic", sans-serif;
+}
+.footer2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  align-content: left;
+  margin-left: 231px;
+  margin-right: 231px;
+}
+
+.mysocialbtn {
+  width: 50.2px;
+}
+
+.footer3-left p {
+  font-size: 14px;
+  line-height: 18px;
+  color: #848789;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Lato Italic", sans-serif;
+  text-align: right;
+}
+.footer3-left {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.footer3-right {
+  padding-top: 5px;
+  padding-right: 10px;
+}
